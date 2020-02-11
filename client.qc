@@ -11,7 +11,6 @@
 //player jump code
 void() PlayerJump =
 {
-	local vector start, end;
 
 	if (self.flags & FL_WATERJUMP)
 		return;

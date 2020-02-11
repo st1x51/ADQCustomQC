@@ -335,15 +335,15 @@ float	SVC_CDTRACK		= 32;
 float	SVC_SELLSCREEN		= 33;
 float	SVC_CUTSCENE		= 34;	// 1998-08-08 Complete SVC list by Zhenga
 //adq svc
-float	SVC_SCREENSHAKE    = 35      //[float]amplitude [float]duration [float]frequency
-float   SVC_SCREENFADE		= 36      //[float]duration [float]holdtime [short]flags [byte]r [byte]g [byte]b [byte]a
-float   SVC_ROOMTYPE        = 37      //[short]value
-float   SVC_BSPDECAL        = 38      //[string]name [coords]pos
-float   SVC_ADDANGLE	    = 39
-float	SVC_SHOWLMP		    = 40	// [string] slotname [string] lmpfilename [coord] x [coord] y
-float	SVC_HIDELMP		    = 41	// [string] slotname
-float	SVC_SHOWSTRING		= 42	
-float	SVC_HIDESTRING		= 43	
+float	SVC_SCREENSHAKE    = 35;      //[float]amplitude [float]duration [float]frequency
+float   SVC_SCREENFADE		= 36;      //[float]duration [float]holdtime [short]flags [byte]r [byte]g [byte]b [byte]a
+float   SVC_ROOMTYPE        = 37;      //[short]value
+float   SVC_BSPDECAL        = 38;     //[string]name [coords]pos
+float   SVC_ADDANGLE	    = 39;
+float	SVC_SHOWLMP		    = 40;	// [string] slotname [string] lmpfilename [coord] x [coord] y
+float	SVC_HIDELMP		    = 41;	// [string] slotname
+float	SVC_SHOWSTRING		= 42;	
+float	SVC_HIDESTRING		= 43;
 //adq svc
 float	TE_SPIKE		= 0;
 float	TE_SUPERSPIKE	= 1;
