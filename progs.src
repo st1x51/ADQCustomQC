@@ -1,0 +1,23 @@
+/*
++-----+
+|Progs|
++-----+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+
+| Scratch                                      Http://www.admdev.com/scratch |
++=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
+| This file contains all a list of QuakeC files to compile into the final    |
+| output file (progs.dat by default)                                         |
++=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
+*/
+
+../progs.dat                                        // Output File
+
+defs.qc                                             // definitions
+adq_ext.qc
+main.qc                                             // main subroutines
+damage.qc
+player.qc
+client.qc                                           // client subroutines
+dummys.qc                                           // null spawn functions
+lights.qc
+impulses.qc
+
