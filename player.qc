@@ -1,12 +1,3 @@
-/*
-+------+
-|Player|
-+------+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-| Scratch                        http://www.inside3d.com/qctut/scratch.shtml |
-+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-| Handle player animations and other misc player functions                   |
-+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-*/
 .float anim_time; // used for animation timing
 .float anim_end; // end frame for current scene
 .float anim_priority; // prioritize animations

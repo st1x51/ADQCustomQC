@@ -1,13 +1,3 @@
-/*
-+------+
-|Lights|
-+------+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-| Scratch                                      Http://www.admdev.com/scratch |
-+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-| Spawns and handles Quake's lights and torches                              |
-+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-*/
-
 float START_OFF = 1;                 // Light on/off spawnflag
 void() Light_setup;                  // Definition from Lights.qc
 

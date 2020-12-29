@@ -1,13 +1,15 @@
-/*
-+------+
-|Client|
-+------+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-| Scratch                                      Http://www.admdev.com/scratch |
-+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-| Handle's "clients" (eg, Players) connecting, disconnecting, etc.           |
-+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-*/
+void()CheckImpulses;
+// Called when a client first connects to a server. Sets parm1...parm16 so that they can be saved off for restarts
+void() SetNewParms = 
+{
 
+};
+
+// Call to set parms for self so they can be restored.
+void() SetChangeParms = 
+{
+
+};
 //player jump code
 void() PlayerJump =
 {
@@ -36,8 +38,6 @@ void() PlayerJump =
 	self.flags = self.flags - FL_ONGROUND;	// don't stairwalk
 
 	self.button2 = 0;
-	// player jumping sound
-	sound (self, CHAN_BODY, "player/jump.wav", 1, ATTN_NORM);
 	self.velocity_z = self.velocity_z + 270;
 };
 //Called when a client issues the 'kill' command
@@ -85,3 +85,4 @@ void() PutClientInServer =
 	self.velocity = VEC_ORIGIN;             // Stop any old movement,VEC_ORIGIN = '0 0 0'
 	self.th_die = PlayerDie;
 };
+void()info_player_start={};

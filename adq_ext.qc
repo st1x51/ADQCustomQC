@@ -18,11 +18,11 @@ void(float fhandle, string s) fputs = #113;
 float(string s) strlen = #114;
 string(string s1, string s2) strcat = #115;
 string(string s, float start, float length) substring = #116;
-vector(string s) stov = #117;
-string(string s) strzone = #118;
-string(string s) strunzone = #119;
+vector(string s) stov = #117; //string to vector
+string(string s) strzone = #118; //zone string in temp buffer
+string(string s) strunzone = #119; //unzone string
 //QuakeC string manipulation by FrikaC  end
 float tokenize (string s) = #5;
-float(string s) getsoundlen = #82;	
+float(string s) getsoundlen = #82;	//get sound length in seconds
 float AdvanceFrame(float start, float end)= #83;	
-string(entity ent) etos = #65;
+string(entity ent) etos = #65; //entity to string

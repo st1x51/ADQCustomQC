@@ -1,18 +1,3 @@
-/*
-+----+
-|Defs|
-+----+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-| Scratch                                      Http://www.admdev.com/scratch |
-+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-| This contains necessary definitions from the original V1.06 defs.qc file.  |
-| This includes some basic constants, the built in function definitions, and |
-| some variable's used by the Quake Engine internally.                       |
-| Certain lines in this file are hardcoded into Quake engine, and -must- be  |
-| present and unchanged, in the order they are shown. Otherwise Quake will   |
-| refuse to run.                                                             |
-+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
-*/
-
 // These lines CANNOT be altered/moved
 entity          self;
 entity		other;
@@ -71,6 +56,7 @@ void		end_sys_globals;		// flag for structure dumping
 .float		skin;
 .float		sequence;
 .float		wepsequence;
+.float		bodygroup;
 .float		effects;
 .vector		mins, maxs;		// bounding box extents reletive to origin
 .vector		size;			// maxs - mins

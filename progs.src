@@ -17,7 +17,6 @@ main.qc                                             // main subroutines
 damage.qc
 player.qc
 client.qc                                           // client subroutines
-dummys.qc                                           // null spawn functions
 lights.qc
 impulses.qc
 
